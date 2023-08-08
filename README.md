@@ -39,21 +39,21 @@ Description:
 The "GeeksforGeeks Data Analysis" project involves scraping and analyzing the video dataset from the GeeksforGeeks YouTube channel.
 The project consists of the following main steps:
 
-  Data Gathering:
+  1. Data Gathering:
         Utilize the YouTube Data API to fetch video details from the GeeksforGeeks YouTube channel.
         Specify the time range of the past 6 months to filter relevant videos.
         Retrieve video titles, views, upload dates, video lengths, and other relevant information.
 
-  Data Processing and Analysis:
+  2. Data Processing and Analysis:
         Calculate the total views and video lengths for each topic.
         Identify the most viewed topics during the specified time period.
         Determine the correlation between the number of views and video lengths.
 
-  Visualization:
+  3. Visualization:
         Create graphical representations using libraries like matplotlib to visualize the relationship between views and video lengths.
         Generate bar plots, scatter plots, or other relevant visualizations to showcase trends and patterns.
 
-  Insights and Findings:
+  4. Insights and Findings:
         Analyze the data to uncover insights such as the most popular topics and their associated video lengths.
         Provide insights into user preferences, engagement patterns, and potential correlations between views and video lengths.
 
