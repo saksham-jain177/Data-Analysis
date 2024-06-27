@@ -21,17 +21,6 @@ The project encompasses the following key aspects:
    - Analyze the distribution of cuisines offered by restaurants to determine popular and niche food choices.
    - Explore the menu items that receive the most attention and positive feedback from customers.
 
-5. Geographic Insights:
-   - Plot the geographic distribution of restaurants to understand their coverage and concentration in different areas.
-   - Analyze the correlation between restaurant locations and customer preferences.
-
-6. Customer Behavior Patterns:
-   - Identify peak order times, preferred delivery hours, and average order values to understand customer behavior.
-   - Explore whether customer preferences change based on factors such as weekdays, weekends, or holidays.
-
-By conducting this data analysis project, we can uncover valuable insights that can benefit both Swiggy and its restaurant partners. The findings can aid the restaurants and enhance overall business growth within the competitive food delivery market.
-
-
 # Project 2
 Project Name: GeeksforGeeks Data Analysis
 
@@ -56,5 +45,3 @@ The project consists of the following main steps:
   4. Insights and Findings:
         Analyze the data to uncover insights such as the most popular topics and their associated video lengths.
         Provide insights into user preferences, engagement patterns, and potential correlations between views and video lengths.
-
-By conducting this data analysis project, valuable insights can be gained into viewer preferences and behavior on any YouTube channel. These insights can help content creators tailor their videos to meet the needs of their audience and enhance the overall viewer experience hence channel growth.
