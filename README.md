@@ -45,3 +45,80 @@ The project consists of the following main steps:
   4. Insights and Findings:
         Analyze the data to uncover insights such as the most popular topics and their associated video lengths.
         Provide insights into user preferences, engagement patterns, and potential correlations between views and video lengths.
+
+# Cardekho Used Car Price Analysis
+
+## Introduction
+This analysis aims to explore the Cardekho used car dataset to uncover insights about the factors influencing the selling price of used cars.
+
+## Data Cleaning and Preprocessing
+The data cleaning and preprocessing steps included:
+- Handling missing values by dropping rows with any null values.
+- Removing duplicate entries.
+- Standardizing text columns (fuel_type, seller_type, transmission_type).
+- Removing outliers from the selling_price column using the IQR method.
+
+## Exploratory Data Analysis (EDA)
+
+### Univariate Analysis
+- **Distribution of Selling Price**:
+  ![Distribution of Selling Price](images/selling_price_distribution.png)
+- **Distribution of Vehicle Age**:
+  ![Distribution of Vehicle Age](images/vehicle_age_distribution.png)
+- **Distribution of KM Driven**:
+  ![Distribution of KM Driven](images/km_driven_distribution.png)
+- **Distribution of Engine**:
+  ![Distribution of Engine](images/engine_distribution.png)
+- **Distribution of Max Power**:
+  ![Distribution of Max Power](images/max_power_distribution.png)
+- **Distribution of Seats**:
+  ![Distribution of Seats](images/seats_distribution.png)
+
+### Bivariate Analysis
+- **Vehicle Age vs. Selling Price**:
+  ![Vehicle Age vs. Selling Price](images/vehicle_age_vs_selling_price.png)
+- **KM Driven vs. Selling Price**:
+  ![KM Driven vs. Selling Price](images/km_driven_vs_selling_price.png)
+
+### Categorical Variable Analysis
+- **Fuel Type Distribution**:
+  ![Fuel Type Distribution](images/fuel_type_distribution.png)
+- **Selling Price Variations Across Different Fuel Types**:
+  ![Selling Price by Fuel Type](images/selling_price_by_fuel_type.png)
+- **Selling Price Variations Across Different Seller Types**:
+  ![Selling Price by Seller Type](images/selling_price_by_seller_type.png)
+- **Selling Price Variations Across Different Transmission Types**:
+  ![Selling Price by Transmission Type](images/selling_price_by_transmission_type.png)
+
+### Correlation Analysis
+- **Correlation Heatmap**:
+  ![Correlation Heatmap](images/correlation_heatmap.png)
+
+## Conclusions
+- **Key Findings**:
+  - Newer vehicles tend to have higher selling prices.
+  - Vehicles with lower KM driven have higher selling prices.
+  - Fuel type, seller type, and transmission type all influence the selling price.
+  - There is a strong correlation between engine size, max power, and selling price.
+- **Recommendations for Buyers**:
+  - Consider newer vehicles with lower KM driven for better value.
+  - Understand the impact of fuel type, seller type, and transmission type on price.
+- **Recommendations for Sellers**:
+  - Highlight low KM driven and vehicle age in listings to justify higher prices.
+  - Understand market trends for different fuel types and transmission types.
+
+## How to Use This Notebook
+1. **Download the Dataset**: Download the dataset from the provided link on Kaggle.
+2. **Run the Notebook**: Run the notebook to see the analysis and visualizations.
+3. **Modify for Your Analysis**: Feel free to modify the notebook for your specific analysis needs.
+
+## Repository Structure
+- `data/`: Contains the dataset (not included, download from Kaggle).
+- `notebooks/`: Contains the Jupyter notebook with the analysis.
+- `images/`: Contains the images used in this README for visualizations.
+
+## Acknowledgements
+- Dataset provided by Cardekho on Kaggle.
+
+## License
+This project is licensed under the MIT License.
