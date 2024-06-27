@@ -79,6 +79,36 @@ The "Cardekho Used Car Price Analysis" project involves analyzing the used car d
 - **Standardizing Text Columns**: Standardized the text columns for fuel type, seller type, and transmission type.
 - **Removing Outliers**: Applied the IQR method to remove outliers from the selling_price column.
 
+# Project 4
+Project Name : Sonar Mine Prediction
+
+Description
+The "Sonar Mine Prediction" project involves building a machine learning model to classify sonar signals as either mines (M) or rocks (R). The project consists of the following main steps:
+
+1. **Data Gathering**:
+   - The dataset used is "Day1_Data_Sonar_Data.csv", which contains sonar readings.
+
+2. **Data Cleaning and Preprocessing**:
+   - Verified the presence of missing values and outliers.
+   - Identified and handled numerical and categorical features.
+
+3. **Exploratory Data Analysis (EDA)**:
+   - Analyzed the summary statistics of numerical and categorical features.
+   - Performed value counts for the target variable to understand class distribution.
+
+4. **Model Building**:
+   - Created feature matrix (X) and target variable (y).
+   - Split the dataset into training and testing sets using a stratified split.
+   - Built and evaluated a logistic regression model.
+   - Compared the performance of different classification models.
+
+5. **Model Comparison**:
+   - Compared Logistic Regression, Support Vector Classifier (SVC), Decision Tree Classifier, and Random Forest Classifier.
+   - Evaluated models based on accuracy scores.
+
+6. **Insights and Findings**:
+   - Analyzed the performance of different models and determined the best model based on accuracy.
+
 ## License
 This project is licensed under the MIT License.
 
