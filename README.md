@@ -1,4 +1,4 @@
-#Project 1
+# Project 1
 Project Name: Swiggy Restaurants Data Analysis
 
 Description:
@@ -32,7 +32,7 @@ The project encompasses the following key aspects:
 By conducting this data analysis project, we can uncover valuable insights that can benefit both Swiggy and its restaurant partners. The findings can aid the restaurants and enhance overall business growth within the competitive food delivery market.
 
 
-#Project 2
+# Project 2
 Project Name: GeeksforGeeks Data Analysis
 
 Description:
