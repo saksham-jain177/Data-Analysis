@@ -1,114 +1,158 @@
-# Project 1
-Project Name: Swiggy Restaurants Data Analysis
+# Data Analysis Projects
 
-Description:
-The "Swiggy Restaurants Data Analysis" project involves analyzing restaurant data from the Swiggy food delivery platform.
-The project encompasses the following key aspects:
+Welcome to my repository of Data Analysis projects! This repository contains a series of notebooks demonstrating different data analysis and machine learning tasks. Each project focuses on a unique dataset and problem statement, showcasing various analytical and predictive techniques.
 
-1. **Data Collection**:
-   - Access Swiggy's restaurant data, which includes details such as restaurant names, cuisines, ratings, reviews, delivery times, and       locations.
-   - Retrieve relevant data points that will provide insights into the variety of restaurants and their offerings.
+## Table of Contents
 
-2. **Data Cleansing and Preparation**:
-   - Clean and preprocess the collected data to remove any inconsistencies or errors.
-   - Organize the data into a structured format that can be easily analyzed.
+1. [Swiggy Restaurants Data Analysis](#swiggy-restaurants-data-analysis)
+2. [GeeksforGeeks Data Analysis](#geeksforgeeks-data-analysis)
+3. [Cardekho Used Car Price Analysis](#cardekho-used-car-price-analysis)
+4. [Sonar Mine Prediction](#sonar-mine-prediction)
+5. [Big Mart Sales Prediction](#big-mart-sales-prediction)
+6. [California House Price Prediction](#california-house-price-prediction)
+7. [CarDekho Car Price EDA](#cardekho-car-price-eda)
+8. [Credit Card Fraud Detection](#credit-card-fraud-detection)
+9. [Customer Segmentation Using K-Means](#customer-segmentation-using-k-means)
+10. [Fake News Prediction](#fake-news-prediction)
+11. [Gold Price Prediction](#gold-price-prediction)
+12. [Heart Disease Prediction](#heart-disease-prediction)
+13. [House Prices: Advanced Regression Techniques](#house-prices-advanced-regression-techniques)
+14. [Loan Eligibility Prediction](#loan-eligibility-prediction)
+15. [Parkinson's Disease Detection](#parkinsons-disease-detection)
+16. [Spam Mail Prediction](#spam-mail-prediction)
+17. [Used Medical Insurance Prediction](#used-medical-insurance-prediction)
 
-3. **Restaurant Performance Analysis**:
-   - Calculate average ratings, review counts, and other metrics to assess the overall performance of restaurants.
-   - Identify highly-rated restaurants and those with a significant number of customer reviews.
+## Swiggy Restaurants Data Analysis
 
-4. **Cuisine and Menu Analysis**:
-   - Analyze the distribution of cuisines offered by restaurants to determine popular and niche food choices.
-   - Explore the menu items that receive the most attention and positive feedback from customers.
+**Description:** This project involves analyzing restaurant data from the Swiggy food delivery platform. Key aspects include:
 
-# Project 2
-Project Name: GeeksforGeeks Data Analysis
+- **Data Collection:** Access data on restaurant names, cuisines, ratings, reviews, delivery times, and locations.
+- **Data Cleansing and Preparation:** Clean and preprocess the data for analysis.
+- **Restaurant Performance Analysis:** Calculate average ratings, review counts, and identify high-performing restaurants.
+- **Cuisine and Menu Analysis:** Analyze cuisine distribution and popular menu items.
 
-Description:
-The "GeeksforGeeks Data Analysis" project involves scraping and analyzing the video dataset from the GeeksforGeeks YouTube channel.
-The project consists of the following main steps:
+## GeeksforGeeks Data Analysis
 
-  1. **Data Gathering**:
-        Utilize the YouTube Data API to fetch video details from the GeeksforGeeks YouTube channel.
-        Specify the time range of the past 6 months to filter relevant videos.
-        Retrieve video titles, views, upload dates, video lengths, and other relevant information.
+**Description:** This project involves scraping and analyzing video data from the GeeksforGeeks YouTube channel.
 
-  2. **Data Processing and Analysis**:
-        Calculate the total views and video lengths for each topic.
-        Identify the most viewed topics during the specified time period.
-        Determine the correlation between the number of views and video lengths.
+- **Data Gathering:** Use YouTube Data API to fetch video details such as titles, views, upload dates, and lengths.
+- **Data Processing and Analysis:** Calculate total views and lengths, identify popular topics, and analyze correlations.
+- **Visualization:** Use libraries like matplotlib to create visualizations of trends and patterns.
 
-  3. **Visualization**:
-        Create graphical representations using libraries like matplotlib to visualize the relationship between views and video lengths.
-        Generate bar plots, scatter plots, or other relevant visualizations to showcase trends and patterns.
+## Cardekho Used Car Price Analysis
 
-  4. **Insights and Findings**:
-        Analyze the data to uncover insights such as the most popular topics and their associated video lengths.
-        Provide insights into user preferences, engagement patterns, and potential correlations between views and video lengths.
+**Description:** Analyze the used car dataset from Cardekho to uncover insights about factors influencing car prices.
 
-# Project 3
-Project Name : Cardekho Used Car Price Analysis
+- **Data Gathering:** The dataset includes features like selling price, vehicle age, KM driven, engine size, fuel type, seller type, and transmission type.
+- **Data Cleaning and Preprocessing:** Handle missing values, remove duplicates, standardize text columns, and remove outliers.
+- **Exploratory Data Analysis (EDA):** Perform univariate, bivariate, and categorical analyses to identify key trends and insights.
+- **Visualization:** Use libraries like matplotlib and seaborn to create distribution plots, scatter plots, and correlation heatmaps.
+- **Insights and Findings:** Analyze the impact of various factors on car prices and provide recommendations based on the analysis.
 
-Description
-The "Cardekho Used Car Price Analysis" project involves analyzing the used car dataset from Cardekho to uncover insights about the factors influencing the selling price of used cars. The project consists of the following main steps:
+## Sonar Mine Prediction
 
-1. **Data Gathering**: 
-   - The dataset was downloaded from Kaggle and includes various features such as selling price, vehicle age, KM driven, engine size, max power, fuel type, seller type, and transmission type.
+**Description:** Build a machine learning model to classify sonar signals as either mines (M) or rocks (R).
 
-2. **Data Cleaning and Preprocessing**:
-   - Handled missing values by dropping rows with any null values.
-   - Removed duplicate entries.
-   - Standardized text columns (fuel_type, seller_type, transmission_type).
-   - Removed outliers from the selling_price column using the IQR method.
+- **Data Gathering:** The dataset includes sonar readings for mines and rocks.
+- **Data Cleaning and Preprocessing:** Verify and handle missing values and outliers.
+- **Exploratory Data Analysis (EDA):** Analyze summary statistics and class distribution.
+- **Model Building:** Create feature matrices, split data, and evaluate models such as Logistic Regression, SVC, Decision Tree, and Random Forest.
+- **Model Comparison:** Compare models based on accuracy and performance metrics.
+- **Insights and Findings:** Determine the best model for sonar signal classification based on accuracy.
 
-3. **Exploratory Data Analysis (EDA)**:
-   - Performed univariate, bivariate, and categorical variable analyses to identify key trends and insights.
-   - Analyzed the correlation between numerical variables.
+## Big Mart Sales Prediction
 
-4. **Visualization**:
-   - Created graphical representations using libraries like matplotlib and seaborn to visualize the relationship between various features and the selling price.
-   - Generated distribution plots, scatter plots, count plots, box plots, and correlation heatmaps to showcase trends and patterns.
+**Description:** Predict sales for Big Mart using historical sales data.
 
-5. **Insights and Findings**:
-   - Analyzed the data to uncover insights such as the impact of vehicle age, KM driven, fuel type, seller type, and transmission type on the selling price.
-   - Provided insights into market trends and recommendations for buyers and sellers based on the analysis.
+- **Data Gathering:** Use sales data from Big Mart to create predictive models.
+- **Data Cleaning and Preprocessing:** Handle missing values and preprocess data for modeling.
+- **Model Building:** Build and evaluate regression models to predict sales.
 
-## Data Cleaning and Preprocessing
-- **Handling Missing Values**: Dropped rows with any null values to ensure data integrity.
-- **Removing Duplicate Entries**: Removed duplicate records to avoid redundancy.
-- **Standardizing Text Columns**: Standardized the text columns for fuel type, seller type, and transmission type.
-- **Removing Outliers**: Applied the IQR method to remove outliers from the selling_price column.
+## California House Price Prediction
 
-# Project 4
-Project Name : Sonar Mine Prediction
+**Description:** Predict house prices in California using historical data.
 
-Description
-The "Sonar Mine Prediction" project involves building a machine learning model to classify sonar signals as either mines (M) or rocks (R). The project consists of the following main steps:
+- **Data Gathering:** Use historical housing data from California.
+- **Data Cleaning and Preprocessing:** Clean and preprocess data for analysis.
+- **Model Building:** Develop regression models to predict house prices.
 
-1. **Data Gathering**:
-   - The dataset used is "Day1_Data_Sonar_Data.csv", which contains sonar readings.
+## CarDekho Car Price EDA
 
-2. **Data Cleaning and Preprocessing**:
-   - Verified the presence of missing values and outliers.
-   - Identified and handled numerical and categorical features.
+**Description:** Perform exploratory data analysis on CarDekho's car price dataset.
 
-3. **Exploratory Data Analysis (EDA)**:
-   - Analyzed the summary statistics of numerical and categorical features.
-   - Performed value counts for the target variable to understand class distribution.
+- **Data Gathering:** Analyze features such as car price, model, and mileage.
+- **Exploratory Data Analysis (EDA):** Identify key trends and patterns in the dataset.
 
-4. **Model Building**:
-   - Created feature matrix (X) and target variable (y).
-   - Split the dataset into training and testing sets using a stratified split.
-   - Built and evaluated a logistic regression model.
-   - Compared the performance of different classification models.
+## Credit Card Fraud Detection
 
-5. **Model Comparison**:
-   - Compared Logistic Regression, Support Vector Classifier (SVC), Decision Tree Classifier, and Random Forest Classifier.
-   - Evaluated models based on accuracy scores.
+**Description:** Build a model to detect fraudulent credit card transactions.
 
-6. **Insights and Findings**:
-   - Analyzed the performance of different models and determined the best model based on accuracy.
+- **Data Gathering:** Use historical credit card transaction data.
+- **Model Building:** Develop and evaluate classification models to detect fraud.
+
+## Customer Segmentation Using K-Means
+
+**Description:** Segment customers into different groups using K-Means clustering.
+
+- **Data Gathering:** Use customer data for clustering.
+- **Model Building:** Apply K-Means clustering to segment customers.
+
+## Fake News Prediction
+
+**Description:** Predict whether a news article is fake or real.
+
+- **Data Gathering:** Use a dataset of news articles.
+- **Model Building:** Develop and evaluate classification models for fake news detection.
+
+## Gold Price Prediction
+
+**Description:** Predict gold prices using historical data.
+
+- **Data Gathering:** Use historical gold price data.
+- **Model Building:** Develop regression models to predict future gold prices.
+
+## Heart Disease Prediction
+
+**Description:** Predict the likelihood of heart disease based on patient data.
+
+- **Data Gathering:** Use health data related to heart disease.
+- **Model Building:** Develop classification models to predict heart disease risk.
+
+## House Prices: Advanced Regression Techniques
+
+**Description:** Use advanced regression techniques to predict house prices.
+
+- **Data Gathering:** Use historical housing data.
+- **Model Building:** Apply advanced regression techniques to improve predictions.
+
+## Loan Eligibility Prediction
+
+**Description:** Predict loan eligibility based on applicant data.
+
+- **Data Gathering:** Use applicant data to determine loan eligibility.
+- **Model Building:** Develop classification models to predict loan approval.
+
+## Parkinson's Disease Detection
+
+**Description:** Build a model to detect Parkinson's disease from patient data.
+
+- **Data Gathering:** Use health data related to Parkinson's disease.
+- **Model Building:** Develop and evaluate classification models for disease detection.
+
+## Spam Mail Prediction
+
+**Description:** Predict whether an email is spam or not.
+
+- **Data Gathering:** Use email data to classify spam and non-spam emails.
+- **Model Building:** Develop classification models to detect spam emails.
+
+## Used Medical Insurance Prediction
+
+**Description:** Predict the likelihood of medical insurance usage based on patient data.
+
+- **Data Gathering:** Use patient data to predict insurance usage.
+- **Model Building:** Develop classification models to predict medical insurance needs.
 
 ## License
-This project is licensed under the MIT License.
 
+This project is licensed under the MIT License.
